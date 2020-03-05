@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/npg" href="../images/plogo.png">
+    <title>UserPage</title>
+</head>
+<style>
+    .nav {
+        border-radius: 20%;
+        display: inline;
+        padding-right: 4%;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+        bottom: auto;
+    }
+
+    nav {
+        margin-left: 15%;
+    }
+
+    .nav:hover {
+        background-color: grey;
+        background-size: auto;
+        color: white;
+    }
+
+    .nav-header {
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        /* height: 20%; */
+        padding: 0% 10%;
+        position: fixed;
+        display: inline;
+        background-color: antiquewhite;
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    body {
+        background-color: cornflowerblue;
+    }
+    #vote-form{
+        background-color:gray;
+        
+        margin-top: 20%;
+        margin-left: 30%;
+        margin-right: 50%;
+        width: 250px;
+        display:none;
+    }
+    .close{
+    top: 41%;
+    right: 52%;
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.close:hover{
+    color:white;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    width: 2%;
+}
+#viewpart-form{
+    display: none;
+    background-color:gray;
+        margin-top: 20%;
+        margin-left: 30%;
+        margin-right: 50%;
+        width: 250px;
+}
+</style>
+
+<body>
+    <div class="nav-header">
+        <h1>Welcome, you can contribute to nation development by giving it good leadership</h1>
+        <nav>
+            <ul>
+                <a id="viewparty">
+                    <li class="nav">VIEW ALL POLITICAL PARTIES</li>
+                </a>
+                <a id="viewpolitician">
+                    <li class="nav">VIEW ALL POLITICIAN</li>
+                </a>
+                <a id="vote">
+                    <li class="nav">VOTE</li>
+                </a>
+                <a href="UserProfile.html" id="vote"><li class="nav">EDIT PROFILE</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="viewpart-form">
+        <div class="viewingpart-form" id="viewingpart-form">
+            
+            <table>
+                <thead><th>names</th></thead>
+                <tr><td>BCDI</td></tr>
+                <tr><td>FDC</td></tr>
+                <tr><td>MFT</td></tr>
+            </table>
+        </div>
+    </div>
+    <div id="vote-form">
+        <div class="voting-form" id="voting-form">
+            
+            <form>
+                <span class="close" id="close-form">&times</span>
+                <label for="post" class="form" id="combo">post office that is to be voted:</label>
+                <select name="post" class="form">
+                    <option value="mayor">Mayor</option>
+                    <option value="minister of finance">Finance Minister</option>
+                </select><br>
+                <label for="leader" class="form" id="combo">politician you are voting for:</label>
+                <select name="leader" class="form">
+                    <option value="1">Ndahayo Aloys</option>
+                    <option value="2">Mukantabana Samuela</option>
+                </select><br>
+                <button id="votebtn">vote for this person</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById('vote').addEventListener('click', () =>
+        {
+            document.getElementById('vote-form').style.display = 'flex';
+            document.getElementById('voting-form').style.display = 'flex';
+        });
+        document.getElementById('viewparty').addEventListener('click', () =>
+        {
+            document.getElementById('viewpart-form').style.display = 'flex';
+        });
+    </script>
+</body>
+
+</html>
