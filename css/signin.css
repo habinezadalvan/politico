@@ -47,3 +47,22 @@ body {
     background-image: url("../images/mic.png");
     background-size: cover;
 }
+@media screen and (max-width: 900px){
+    .allform {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 150px auto;
+        width: 300px;
+        background-color: blue;
+        animation: moveInBottom 3s ease-out;
+    }
+    /* .allform{
+        padding: 0% 18%;
+        display: inline-flexbox;
+        font-size: small;
+        background-color:  antiquewhite;
+        justify-content: center;
+    } */
+}

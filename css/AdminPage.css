@@ -95,3 +95,70 @@ body {
     background-image: url("../images/mic.png");
     background-size: cover;
 }
+@media screen and (max-width: 900px){
+    .links {
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        /* height: 20%; */
+        padding: 0% 18%;
+        position: fixed;
+        display: inline-flexbox;
+        font-size: small;
+        background-color:  antiquewhite;
+        justify-content: center;
+    }
+    .button:hover{
+        background-color: gray;
+        position: fixed;
+    }
+    body {
+        /* background-image: url("../images/mic.png"); */
+        background-size: cover;
+    }
+    #create-allform{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;
+    }
+    
+    #edit-form{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;
+    }
+    #delete-form{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;
+    }
+    #createpost-form{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;    }
+    
+}

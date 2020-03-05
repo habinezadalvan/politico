@@ -36,14 +36,13 @@ h1 {
 
 body {
     background-color: rgb(236, 156, 210);
+    
 }
 
 h2 {
     padding-top: 30%;
     right: 0%;
     left: 0%;
-    background-image: url("../images/mic.png");
-    background-size: cover;
     text-align: center;
     margin-top: 8%;
 }
@@ -61,6 +60,8 @@ h2 {
 .content {
     height: 100%;
     width: 100%;
+    background: url("../images/mic.png") no-repeat;
+    background-size: cover;     
 }
 
 .ContactUs{
@@ -87,3 +88,49 @@ h2 {
     height: 23px;
     border-radius: 5px;
 }
+@media screen and (max-width: 900px){
+    h2{
+        padding-top: 30%;
+        font-size: 20px;
+        right: 0%;
+        left: 0%;
+        text-align: center;
+        margin-top: 25%; 
+    }
+    .content {
+        height: 100%;
+        width: 100%;
+        background: url("../images/mic.png") no-repeat;
+        background-size: cover;    
+        bottom: 0px; 
+    }
+    .ContactUs{
+        margin: 0px;
+        /* bottom: 0px; */
+    }
+    .FollowUs{
+        margin: 0px;
+    }
+    .links{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    position: fixed;
+    display: inline;
+    background-color: antiquewhite;
+    justify-content: center;
+    }
+    .ComeVistUs-element{
+        padding: 0px;
+    }
+    .ComeVistUs{
+        width: 110px;
+    }
+    .ContactUs-element{
+        padding: 0px;
+    }
+    .FollowUs-element{
+        padding: 0px;
+    }
+ }
+ 

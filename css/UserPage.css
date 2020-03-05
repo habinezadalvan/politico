@@ -79,3 +79,50 @@ background-color:gray;
     margin-right: 50%;
     width: 250px;
 }
+@media screen and (max-width: 900px){
+        #vote-form{
+            background-color:gray;
+            
+            margin-top: 100%;
+            margin-bottom: 0px;
+            margin-left: 0%;
+            margin-right: 500px;
+            width: 250px;
+            display:none;
+        }
+    #viewpol-form{
+        background-color:gray;
+            
+        margin-top: 100%;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        margin-right: 500px;
+        width: 250px;
+        display:none;
+    }
+    #viewpart-form{
+        background-color:gray;
+            
+        margin-top: 100%;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        margin-right: 500px;
+        width: 250px;
+        display:none;
+        }
+        .close{
+            top: 52%;
+            right: 30%;
+            position: absolute;
+            font-size: 40px;
+            cursor: pointer;
+            font-weight: bold;
+            }
+            .close:hover{
+                color:white;
+                background-color: red;
+                justify-content: center;
+                align-items: center;
+                width: 2%;
+                }
+}
