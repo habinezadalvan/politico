@@ -50,3 +50,24 @@ document.getElementById("create").addEventListener('click',()=>{
     document.getElementById("delete-form").style.display="none";
     document.getElementById("createpost-form").style.display="none";
 });
+document.getElementById('politico1').addEventListener('click', () =>{
+    document.getElementById('table1').style.display = 'flex';
+    document.getElementById('politico1').addEventListener('click', () =>{
+        document.getElementById('table1').style.display = 'none';
+        document.getElementById('politico1').addEventListener('click', () =>{
+            document.getElementById('table1').style.display = 'flex';
+            document.getElementById('politico1').addEventListener('click', () =>{
+                document.getElementById('table1').style.display = 'none';
+                document.getElementById('politico1').addEventListener('click', () =>{
+                    document.getElementById('table1').style.display = 'flex';
+                    document.getElementById('politico1').addEventListener('click', () =>{
+                        document.getElementById('table1').style.display = 'none';
+                        document.getElementById('politico1').addEventListener('click', () =>{
+                            document.getElementById('table1').style.display = 'flex';
+                            });
+                    });
+                });
+            });
+        });
+    });
+});
