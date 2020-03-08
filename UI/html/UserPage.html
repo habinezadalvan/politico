@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/npg" href="../images/plogo.png">
+    <title>UserPage</title>
+    <link rel="stylesheet" href="../css/UserPage.css">
+</head>
+
+
+<body>
+    <div class="nav-header">
+        <h1>Welcome, you can contribute to your nation development by giving it good leadership</h1>
+        <nav>
+            <ul>
+                <a id="viewparty">
+                    <li class="nav">VIEW ALL POLITICAL PARTIES</li>
+                </a>
+                <a id="viewpol">
+                    <li class="nav">VIEW ALL POLITICIANS</li>
+                </a>
+                <a id="vote">
+                    <li class="nav">VOTE</li>
+                </a>
+                <a href="UserProfile.html" id="">
+                    <li class="nav">EDIT PROFILE</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="viewpart-form">
+        <div class="viewingpart-form" id="viewingpart-form">
+
+            <table>
+                <thead>
+                    <th>names</th>
+                </thead>
+                <tr>
+                    <td>BCDI</td>
+                </tr>
+                <tr>
+                    <td>FDC</td>
+                </tr>
+                <tr>
+                    <td>MFT</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="vote-form">
+        <div class="voting-form" id="voting-form">
+
+            <form>
+                <!-- <span class="close" id="close-form">&times</span> -->
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><label for="post" class="form" id="combo">post office that is to be voted:</label>
+                            <select name="post" class="form">
+                                <option value="mayor">Mayor</option>
+                                <option value="minister of finance">Finance Minister</option>
+                            </select></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td><label for="leader" class="form" id="combo">politician you are voting for:</label>
+                            <select name="leader" class="form">
+                                <option value="1">Ndahayo Aloys</option>
+                                <option value="2">Mukantabana Samuela</option>
+                            </select></td>
+                        <td></td>
+                    </tr>
+
+                </table>
+
+                <button id="votebtn">vote for this person</button>
+            </form>
+        </div>
+
+    </div>
+    <div id="viewpol-form">
+        <div class="viewingpol-form" id="viewingpol-form">
+
+
+            <table>
+                <thead>
+                    <th>names</th>
+
+                    <th>post he/she occupied</th>
+                </thead>
+                <tr>
+                    <td>Ndahayo Aloys</td>
+                    <td>Minister of Education</td>
+                </tr>
+                <tr>
+                    <td>Mukantabana Samuela</td>
+                    <td>Minister of Health</td>
+                </tr>
+            </table>
+
+
+        </div>
+
+    </div>
+    <script src="../js/UserPage.js"></script>
+</body>
+
+</html>
