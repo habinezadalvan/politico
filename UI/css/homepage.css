@@ -2,18 +2,21 @@
 .link {
     border-radius: 20%;
     display: inline;
-    padding-right: 4%; 
-    padding-left: 4%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-right: 20px; 
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline:rgb(209, 185, 185);
+    /* line-break: ; */
     text-align: center;
     bottom: auto;
     background-color: rgb(209, 185, 185);
     color: black;
 }
 #image{
-    width: 20%;
-    height:12%;
+    width: 30%;
+    height:18%;
+    margin-right: 290px;
 }
 nav{
 margin-left: 30%;
@@ -23,22 +26,28 @@ margin-left: 30%;
     background-size: auto;
     color: white;
 }
-
+#link1{
+    margin-left: 460px;
+}
+h3{
+    font-size: smaller;
+    margin-right: 0%;
+}
 .links {
     top: 0%;
     right: 0%;
     left: 0%;
     /* height: 20%; */
-    padding: 0% 18%;
+    /* padding: 0% 18%; */
     position: fixed;
     display: inline;
     background-color: antiquewhite;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
-h1 {
-    text-align: center;
-}
+/* h1 {
+    /* text-align: center; 
+} */
 
 body {
     background-color:rgb(233, 206, 206);
@@ -74,24 +83,32 @@ h2 {
 }
 #create-account-btn{
     font-weight: bold;
-    border-radius: 25%;
+    border-radius: 20%;
     cursor: pointer;
-    background-image: url("../images/mic.png");
+    font-size: x-small;
+    background-color: rgb(209, 185, 185);
+    outline:rgb(209, 185, 185);
+    color: black;
     margin-left: 45%;
     margin-bottom: 8%;
+    width: 120px;
+    height: 25px;
+    padding-right: 0%; 
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-bottom: 2%;
     /* padding: 5%; */
 }
 #create-account-btn:hover{
-    background-color: antiquewhite;
-    width: 120px;
-    height: 25px;
+    background-color: grey;
+    background-size: auto;
     color: white;
 }
 .content {
     height: 100%;
     width: 100%;
     /* background: url("../images/mic.png") no-repeat; */
-    background-size: cover;     
+    /* background-size: cover;      */
 }
 
 .ContactUs{
@@ -100,8 +117,13 @@ h2 {
     line-height: 25px;
 }
 #footer{
-    top: 90%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
     justify-content: center;
+    background-color: antiquewhite;
+    padding: 0% 18%;
+    /* position: fixed; */
     flex-direction: row;
     display: flex;
 }
@@ -118,18 +140,37 @@ h2 {
     margin-top: 15%;
 }
 .FollowUs ul li img{
-    width: 23px;
-    height: 23px;
+    width: 25px;
+    height: 10px;
+    left: 0%;
+    
+    margin-right: 8px;
+    margin-top: 5px;
+}
+table .word{
+    width: 0%;
+    margin-right: 70px;
+}
+.beg{
+    width: 40px;
+    height: 25px;
     border-radius: 5px;
 }
+.FollowUs img{
+    margin-left: 80%;
+    
+}
+.f{
+    margin-left: 40px;
+}
 .FollowUs i {
-    margin-left: 30%;
+    margin-left: 50%;
 }
 .FollowUs li{
     color: black;
 }
 .ContactUs i{
-    margin-left: 10%;
+    margin-left: 17%;
 }
 .ComeVistUs i{
     margin-left: 19%;

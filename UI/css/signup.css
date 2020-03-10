@@ -22,7 +22,8 @@
 }
 
 .button {
-    background-color: lightcoral;
+    background-color: rgb(209, 185, 185);
+    outline:rgb(209, 185, 185);
     height: 50px;
     width: 120px;
     border-radius: 15%;

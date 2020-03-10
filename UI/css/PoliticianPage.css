@@ -30,6 +30,9 @@ margin-left: 30%;
     background-size: auto;
     color: white;
 }
+textarea{
+    outline: white;
+}
 
 .links {
     top: 0%;
@@ -62,30 +65,45 @@ h2 {
 }
 #create-account-btn{
     font-weight: bold;
-    border-radius: 25%;
+    border-radius: 20%;
     cursor: pointer;
-    background-color: antiquewhite;
-    background-image: url("../images/mic.png");
-}
-#create-account-btn:hover{
-    color: white;
-    background-color: antiquewhite;
+    font-size: x-small;
+    background-color: rgb(209, 185, 185);
+    color: black;
+    margin-left: -5%;
+    margin-bottom: 8%;
+    outline:rgb(209, 185, 185);
     width: 120px;
     height: 25px;
+    padding-right: 0%; 
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    /* padding: 5%; */
+}
+
+#create-account-btn:hover{
+    background-color: grey;
+    background-size: auto;
+    color: white;
 }
 .content {
     height: 100%;
     width: 100%;
 }
-
 .ContactUs{
     margin-left: 10vw;
     width: 30%;
     line-height: 25px;
 }
 #footer{
-    
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
     justify-content: center;
+    background-color: antiquewhite;
+    padding: 0% 18%;
+    /* position: fixed; */
     flex-direction: row;
     display: flex;
 }
@@ -96,11 +114,46 @@ h2 {
 .ComeVistUs li, .ContactUs  li, .FollowUs li{
     list-style: none;
     margin-right: auto;
+    
+}
+.begin{
+    margin-top: 15%;
 }
 .FollowUs ul li img{
-    width: 23px;
-    height: 23px;
+    width: 25px;
+    height: 10px;
+    left: 0%;
+    
+    margin-right: 8px;
+    margin-top: 5px;
+}
+table .word{
+    width: 0%;
+    margin-right: 70px;
+}
+.beg{
+    width: 40px;
+    height: 25px;
     border-radius: 5px;
+}
+.FollowUs img{
+    margin-left: 80%;
+    
+}
+.f{
+    margin-left: 40px;
+}
+.FollowUs i {
+    margin-left: 30%;
+}
+.FollowUs li{
+    color: black;
+}
+.ContactUs i{
+    margin-left: 17%;
+}
+.ComeVistUs i{
+    margin-left: 19%;
 }
 @media screen and (max-width: 900px){
     body{

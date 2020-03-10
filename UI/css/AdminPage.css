@@ -11,20 +11,43 @@
     /* margin-right:30%;  */
 }
 #create-btn{
-    height: 20px;
-    padding-top: 20px;
+    height: 50px;
+    margin-right: 23px;
+    outline:rgb(209, 185, 185);
+    width: 100px;
+    /* margin-top: 20px;
+    padding-top: 50px; */
+    text-align: center;
+    /* padding-right: 20px;
+    padding-left: 20px; */
 }
 #edit-btn{
-    height: 20px;
-    padding-top: 20px;
+    height: 50px;
+    margin-right: 23px;
+    width: 100px;
+    outline:rgb(209, 185, 185);
+    /* margin-top: 20px;
+    padding-top: 50px; */
+    text-align: center;
 }
 #delete-btn{
-    height: 20px;
-    padding-top: 20px;
+    height: 50px;
+    margin-right: 23px;
+    width: 100px;
+    outline:rgb(209, 185, 185);
+    /* margin-top: 20px;
+    padding-top: 50px; */
+    text-align: center;
 }
+
 #createpost-btn{
-    height: 20px;
-    padding-top: 20px;
+    height: 50px;
+    margin-right: 23px;
+    outline:rgb(209, 185, 185);
+    width: 100px;
+    /* margin-top: 20px;
+    padding-top: 50px; */
+    text-align: center;
 }
 .links {
     top: 0%;
@@ -40,16 +63,20 @@
 }
 
 .button {
-    background-color: lightcoral;
-    height: 20px;
-    width: 120px;
+    outline:rgb(209, 185, 185);
+    background-color: rgb(209, 185, 185);
+    height: 40px;
+    width: 240px;
+    padding: 12px;
     border-radius: 15%;
-    margin-top: 5%;
+    margin-top: 20%;  
     margin-left: 40%;
     margin-right: 50%;
+    text-align: center;
 }
 .button:hover{
     background-color: gray;
+    color: white;
 }
 #create-allform{
     display: none;
