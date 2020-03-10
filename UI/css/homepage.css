@@ -11,6 +11,10 @@
     background-color: rgb(209, 185, 185);
     color: black;
 }
+#image{
+    width: 20%;
+    height:12%;
+}
 nav{
 margin-left: 30%;
 }

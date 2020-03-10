@@ -3,16 +3,27 @@
     display: inline;
     padding-right: 4%;
     padding-left: 4%;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-bottom: 2%;
-    text-align: center;
     bottom: auto;
+    
     background-color: rgb(209, 185, 185);
     color: black;
 }
-
-nav {
-    margin-left: 15%;
+#image{
+    width: 10%;
+    height:12%;
+    bottom: 0%;
+    /* margin-left: 40%; */
+    right:70%;
+    /* padding-left: 4%;
+    padding-top: 2%; */
+    align-items: flex-end;
+    /* justify-items: center; */
+    /* margin-top:%  */
+}
+#nav1{
+    margin-left: 10%;
 }
 
 .nav:hover {
@@ -27,7 +38,7 @@ nav {
     left: 0%;
     bottom: 70%;
     /* height: 20%; */
-    padding: 0% 10%;
+    padding: 0% auto;
     position: fixed;
     display: inline;
     background-color: antiquewhite;
@@ -35,7 +46,8 @@ nav {
 }
 
 h1 {
-    text-align: center;
+    /*text-align: center;  */
+    font-size: 30px;
 }
 
 body {

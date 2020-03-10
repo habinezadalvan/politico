@@ -9,50 +9,56 @@
     <link rel="stylesheet" href="../css/AdminPage.css">
 </head>
 
-    <body>
-        <div class="links">
-            <h1>hi, welcome to politico App as Admin</h1>
-            <nav>
-                <ul>
-                    <button id="create-btn" class="nav"> Create Party</button>
-                           
-                    <button id="edit-btn" class="nav"> edit Party</button>
-                    <button id="delete-btn" class="nav"> delete Party</button>
-                    <button id="createpost-btn" class="nav"> create Post of offices</button>
-                </ul>
-            </nav>
-        </div>
+<body>
+    <div class="links">
 
-        <div id="create-allform">
-            <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
-            <input id="partychief" class="form" type="text" value=""placeholder="leader of party " required><br>
-            <div class="button1">
-                <button id="create" class="button">create</button>
-            </div>
-        </div>
+        <h1>
+            <a href="../index.html"><img id="image" src="../images/politico.png"></a>
+                hi, welcome to politico App as Admin
+            
+        </h1>
+        <nav>
+            <ul>
+                <button id="create-btn" class="nav"> Create Party</button>
 
-        <div id="edit-form">
-            <input id="party" class="form" type="text" value="BCDI" placeholder="name of party" required><br>
-            <input id="partychief" class="form" type="text" value="HABUMUREMYI Jean" placeholder="leader of party " required><br>
-            <div class="button1">
-                <button id="update" class="button">Update</button>
-            </div>
-        </div>
-        <div id="delete-form">
-            <input id="party" class="form" type="text" value="" placeholder="name of party to be deleted" required><br>
-            <div class="button1">
-                <button id="delete" class="button">delete</button>
-            </div>
-        </div>
+                <button id="edit-btn" class="nav"> edit Party</button>
+                <button id="delete-btn" class="nav"> delete Party</button>
+                <button id="createpost-btn" class="nav"> create Post of offices</button>
+            </ul>
+        </nav>
+    </div>
 
-        <div id="createpost-form">
-            <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
-            <input id="post" class="form" type="text" value="" placeholder="post" required><br>
-            <div class="button1">
-                <button id="createpost" class="button">create post</button>
-            </div>
+    <div id="create-allform">
+        <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
+        <input id="partychief" class="form" type="text" value="" placeholder="leader of party " required><br>
+        <div class="button1">
+            <button id="create" class="button">create</button>
         </div>
-      <script src="../js/AdminPage.js"></script>
-    </body>
+    </div>
+
+    <div id="edit-form">
+        <input id="party" class="form" type="text" value="BCDI" placeholder="name of party" required><br>
+        <input id="partychief" class="form" type="text" value="HABUMUREMYI Jean" placeholder="leader of party "
+            required><br>
+        <div class="button1">
+            <button id="update" class="button">Update</button>
+        </div>
+    </div>
+    <div id="delete-form">
+        <input id="party" class="form" type="text" value="" placeholder="name of party to be deleted" required><br>
+        <div class="button1">
+            <button id="delete" class="button">delete</button>
+        </div>
+    </div>
+
+    <div id="createpost-form">
+        <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
+        <input id="post" class="form" type="text" value="" placeholder="post" required><br>
+        <div class="button1">
+            <button id="createpost" class="button">create post</button>
+        </div>
+    </div>
+    <script src="../js/AdminPage.js"></script>
+</body>
 
 </html>

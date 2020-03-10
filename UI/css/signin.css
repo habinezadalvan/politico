@@ -5,7 +5,11 @@
     font-size: 20px;
     border-radius: 10px;
 }
-
+#image{
+    width: 20%;
+    height:18%;
+    margin-left: 40%;
+}
 .button {
     background-color: lightcoral;
     height: 50px;
@@ -13,20 +17,25 @@
     border-radius: 15%;
     margin-top: 5%;
     margin-left: 40%;
-    margin-right: 50%;
+    margin-right: 90px;
 }
-
+table{
+    margin-left: 20%
+}
 .allform {
     display: flex;
     flex-direction: column;
     padding: 1%;
     border-radius: 10%;
-    margin: 150px auto;
+    margin: 70px auto;
     width: 600px;
     background-color: antiquewhite;
     animation: moveInBottom 3s ease-out;
     /* border-color: black; */
     /* border-style: solid; */
+}
+#SignIn{
+    margin-right: 20%;
 }
 
 @keyframes moveInBottom {
@@ -43,6 +52,7 @@
 
 .button1 {
     display: inline;
+    margin-right: 10%;
 }
 
 body {
