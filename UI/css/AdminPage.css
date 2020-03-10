@@ -1,0 +1,217 @@
+.form {
+    margin: 2% 10%;
+    padding: 1%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#image{
+    width: 15%;
+    height:12%;
+    /* margin-right:30%;  */
+}
+#create-btn{
+    height: 20px;
+    padding-top: 20px;
+}
+#edit-btn{
+    height: 20px;
+    padding-top: 20px;
+}
+#delete-btn{
+    height: 20px;
+    padding-top: 20px;
+}
+#createpost-btn{
+    height: 20px;
+    padding-top: 20px;
+}
+.links {
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    /* height: 20%; */
+    /* padding: 0% 18%; */
+    padding-bottom: 5%;
+    position: fixed;
+    display: inline;
+    background-color:  antiquewhite;
+    /* justify-content: center; */
+}
+
+.button {
+    background-color: lightcoral;
+    height: 20px;
+    width: 120px;
+    border-radius: 15%;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+.button:hover{
+    background-color: gray;
+}
+#create-allform{
+    display: none;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 230px auto;
+    /* top: 20%; */
+    width: 600px;
+    background-color: antiquewhite;
+    animation: moveInBottom 3s ease-out;
+}
+
+#edit-form{
+    display: none;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 230px auto;
+    /* top: 50%; */
+    width: 600px;
+    background-color: antiquewhite;
+    animation: moveInBottom 3s ease-out;
+}
+/* h1{
+    /* text-align: center; 
+} */
+#delete-form{
+    display: none;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 230px auto;
+    top: 20%;
+    width: 600px;
+    background-color: antiquewhite;
+    animation: moveInBottom 3s ease-out;
+}
+#createpost-form{
+    display: none;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 230px auto;
+    top: 20%;
+    width: 600px;
+    background-color: antiquewhite;
+    animation: moveInBottom 3s ease-out;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#create-btn{
+    margin-left: 10%;
+}
+.nav{
+    border-radius: 20%;
+    display: inline;
+    padding-right: 4%; 
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    bottom: auto;
+    background-color: rgb(209, 185, 185);
+    color: black;
+}
+.nav:hover{
+    border-radius: 20%;
+    color: white;
+    background-color: gray;
+}
+
+.button1 {
+    display: inline;
+}
+
+body {
+    background-color:  rgb(233, 206, 206);
+}
+@media screen and (max-width: 900px){
+    .links {
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        /* height: 20%; */
+        padding: 0% 18%;
+        position: fixed;
+        display: inline-flexbox;
+        font-size: small;
+        background-color:  antiquewhite;
+        justify-content: center;
+    }
+    .button:hover{
+        background-color: gray;
+        position: fixed;
+    }
+    body {
+        /* background-image: url("../images/mic.png"); */
+        background-size: cover;
+    }
+    #create-allform{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;
+    }
+    
+    #edit-form{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;
+    }
+    #delete-form{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;
+    }
+    #createpost-form{
+        display: none;
+        flex-direction: column;
+        width: min-content;
+        padding: 1%;
+        border-radius: 10%;
+        margin: 200px auto;
+        width: 200px;
+        background-color: antiquewhite;
+        animation: moveInBottom 3s ease-out;    
+    }
+    #create-btn{
+        margin-left: -10%;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    #create-btn{
+        margin-left: -40%;
+    }
+}

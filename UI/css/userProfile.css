@@ -1,0 +1,17 @@
+.profile-image {
+    border-radius: 40%;
+    cursor: pointer;
+}
+.class{
+    padding-left: 20%;
+}
+body{
+    background-color: antiquewhite;
+}
+#image{
+width: 15%;
+height:8%;
+   }
+   h1{
+       /* margin-left: 50%; */
+   }

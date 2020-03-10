@@ -1,0 +1,191 @@
+
+.link {
+    border-radius: 20%;
+    display: inline;
+    padding-right: 4%; 
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    bottom: auto;
+    background-color: rgb(209, 185, 185);
+    color: black;
+}
+#image{
+    width: 20%;
+    height:12%;
+}
+nav{
+margin-left: 30%;
+}
+.link:hover {
+    background-color: grey;
+    background-size: auto;
+    color: white;
+}
+
+.links {
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    /* height: 20%; */
+    padding: 0% 18%;
+    position: fixed;
+    display: inline;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color:rgb(233, 206, 206);
+    
+}
+
+#body-container .body{
+    /* text-align: center; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 0%;
+    width: 70%;
+    
+    }
+    #continue{
+        margin-top: 35%;  
+    }
+td{
+    width: 50%;
+}
+#body-container table{
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 5%;
+}
+
+h2 {
+    padding-top: 10%;
+    right: 0%;
+    left: 0%;
+    text-align: center;
+    margin-top: 8%;
+}
+#create-account-btn{
+    font-weight: bold;
+    border-radius: 25%;
+    cursor: pointer;
+    background-image: url("../images/mic.png");
+    margin-left: 45%;
+    margin-bottom: 8%;
+    /* padding: 5%; */
+}
+#create-account-btn:hover{
+    background-color: antiquewhite;
+    width: 120px;
+    height: 25px;
+    color: white;
+}
+.content {
+    height: 100%;
+    width: 100%;
+    /* background: url("../images/mic.png") no-repeat; */
+    background-size: cover;     
+}
+
+.ContactUs{
+    margin-left: 10vw;
+    width: 30%;
+    line-height: 25px;
+}
+#footer{
+    top: 90%;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+.ComeVistUs i, .ContactUs i , .FollowUs i{
+    font-weight:bold;
+    font-size: 19px;
+}
+.ComeVistUs li, .ContactUs  li, .FollowUs li{
+    list-style: none;
+    margin-right: auto;
+    
+}
+.begin{
+    margin-top: 15%;
+}
+.FollowUs ul li img{
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+}
+.FollowUs i {
+    margin-left: 30%;
+}
+.FollowUs li{
+    color: black;
+}
+.ContactUs i{
+    margin-left: 10%;
+}
+.ComeVistUs i{
+    margin-left: 19%;
+}
+/* footer{
+    margin-top: 95%;
+} */
+
+
+@media screen and (max-width: 900px){
+    h2{
+        padding-top: 30%;
+        font-size: 20px;
+        right: 0%;
+        left: 0%;
+        text-align: center;
+        margin-top: 25%; 
+    }
+    .content {
+        height: 100%;
+        width: 100%;
+        /* background: url("../images/mic.png") no-repeat;
+        background-size: cover;     */
+        bottom: 0px; 
+    }
+    body {
+        background-color:rgb(233, 206, 206);
+        
+    }
+    .ContactUs{
+        margin: 0px;
+        /* bottom: 0px; */
+    }
+    .FollowUs{
+        margin: 0px;
+    }
+    .links{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    position: fixed;
+    display: inline;
+    background-color: antiquewhite;
+    justify-content: center;
+    }
+    .ComeVistUs-element{
+        padding: 0px;
+    }
+    .ComeVistUs{
+        width: 110px;
+    }
+    .ContactUs-element{
+        padding: 0px;
+    }
+    .FollowUs-element{
+        padding: 0px;
+    }
+ }
+ 
