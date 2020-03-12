@@ -81,7 +81,23 @@ header h1{
     margin:auto;
     overflow: hidden;
 }
-
+/* #p1{
+    padding-bottom: 60px;
+} */
+.parag {
+float: left;
+width: 37%;
+/* background-size: 34%; */
+text-align: center;
+font-size: 17px;
+margin-right: 30px;
+background-color: rgb(184, 128, 44);
+border-radius: 7%;
+    display: flex;
+}
+.par{
+    margin-left: 20%;
+}
 #table1{
     display: none;
     margin-top: 0;
@@ -162,6 +178,7 @@ h1 {
     padding-left: 4%;
     margin-left: 20%;
     margin-top:5%;
+    outline:rgb(209, 185, 185);
     padding-bottom: 2%;
     text-align: center;
     bottom: auto;

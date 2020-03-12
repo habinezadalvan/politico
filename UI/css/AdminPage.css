@@ -92,6 +92,7 @@ header h1{
     float: right;
 
 }
+
 #table1:hover{
     background-color: rgb(90, 79, 79);
 }
@@ -107,6 +108,17 @@ tr:hover{
 }
 #table1 a:hover{
     color: white;
+}
+#info{
+    display: none;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 70px auto;
+    /* top: 50%; */
+    width: 600px;
+    background-color: antiquewhite;
+    /* animation: moveInBottom 3s ease-out; */
 }
 #image{
     width: 10%;

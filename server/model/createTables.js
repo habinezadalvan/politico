@@ -1,5 +1,5 @@
+/* eslint-disable no-irregular-whitespace */
 import pool from '../db/config';
-import query from '../db';
 
 export const createTables = () => {
     const querry = `CREATE TABLE IF NOT EXISTS
@@ -51,13 +51,14 @@ export const createTables = () => {
         createdBy integer NOT NULL, 
         office integer NOT NULL, 
         body character varying(50) NOT NULL
-    );`;
+    );
+    INSERT INTO users (nationalId, firstname, lastname, othername, email, phonenumber, passportUrl, password, isAdmin) VALUES ('1234567890123456', 'fiacre', 'giraneza', '', '', '0987654321', 'wertyuiop', '$2b$10$UnnGJcXy/juRVEnmm/HUC.Mo3PF3M74Q/WlGcJLYB7W1BktI6TwrC', true);`;
     pool.query(querry)
         .then(() => console.log('Tables created'))
         .catch((err) => {
             console.log(err);
             pool.end();
-        })
+        });
 };
 export default pool;
 require('make-runnable');

@@ -1,6 +1,6 @@
 import pool from './config';
 
-export const query = async (myQuery, values=[]) => pool.connect()
+export const query = async (myQuery, values = []) => pool.connect()
     .then(client => client
         .query(myQuery, values)
         .then(res => {

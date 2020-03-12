@@ -39,22 +39,8 @@ header{
     margin-top: 20px;
 } */
 
-section{
-    margin-top: 20px;
-    
-}
-.parag {
-float: left;
-width: 37%;
-font-size: 17px;
-margin-left: 10px;
-background-color: rgb(184, 128, 44);
-border-radius: 7%;
-    /* display: inline; */
-}
-.par{
-    margin-left: 20%;
-}
+
+
 #create-account-btn{
     height: 40px;
     width: 140px;
@@ -149,7 +135,7 @@ h2 {
     /* background-image: url("../images/mic.png");
     background-size: cover; */
     text-align: center;
-    margin-top: 5%;
+    margin-top: 5px;
 }
 #create-account-btn{
     font-weight: bold;
