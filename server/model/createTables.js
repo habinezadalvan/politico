@@ -1,0 +1,62 @@
+import pool from '../db/config';
+import query from '../db';
+
+export const createTables = () => {
+    const querry = `CREATE TABLE IF NOT EXISTS
+    users(
+        id serial,
+        firstname character varying(50) NOT NULL,
+        lastname character varying(50) NOT NULL,
+        othername character varying(50) NOT NULL,
+        email character varying(50) NOT NULL,
+        phoneNumber character varying(50) NOT NULL,
+        passportUrl character varying(50) NOT NULL,
+        password character varying(1024) NOT NULL,
+        isAdmin boolean NOT NULL,
+        PRIMARY KEY(id)
+    );
+    CREATE TABLE IF NOT EXISTS
+    party(
+        id serial,
+        name character varying(50) NOT NULL,
+        hqAddress character varying(50) NOT NULL,
+        logoUrl character varying(50) NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS
+    office(
+        id serial,
+        type character varying(50) NOT NULL,
+        name character varying(50) NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS
+    candidate(
+        id serial,
+        officeId integer NOT NULL,
+        partyId integer NOT NULL,
+        userId integer NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS
+    vote(
+        id​ serial,
+        createdOn​ character varying(50) NOT NULL,
+        createdBy integer NOT NULL, 
+        office integer NOT NULL, 
+        candidate integer NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS
+    petition(
+        id​ serial,
+        createdOn​ character varying(50) NOT NULL,
+        createdBy integer NOT NULL, 
+        office integer NOT NULL, 
+        body character varying(50) NOT NULL
+    );`;
+    pool.query(querry)
+        .then(() => console.log('Tables created'))
+        .catch((err) => {
+            console.log(err);
+            pool.end();
+        })
+};
+export default pool;
+require('make-runnable');

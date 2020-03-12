@@ -1,0 +1,38 @@
+{
+  "name": "politico",
+  "version": "1.0.0",
+  "description": " Politico enables citizens to give their mandate to politicians running for different government offices while building trust in the process through transparency. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon --exec babel-node app.js",
+    "create": "babel-node server/model/createTables.js createTables"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giranezafiacre/politico.git"
+  },
+  "author": "Fiacre",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/giranezafiacre/politico/issues"
+  },
+  "homepage": "https://github.com/giranezafiacre/politico#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
