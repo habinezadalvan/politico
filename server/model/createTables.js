@@ -5,10 +5,11 @@ export const createTables = () => {
     const querry = `CREATE TABLE IF NOT EXISTS
     users(
         id serial,
+        nationalId character varying(20) NOT NULL,
         firstname character varying(50) NOT NULL,
         lastname character varying(50) NOT NULL,
-        othername character varying(50) NOT NULL,
-        email character varying(50) NOT NULL,
+        othername character varying(50),
+        email character varying(50),
         phoneNumber character varying(50) NOT NULL,
         passportUrl character varying(50) NOT NULL,
         password character varying(1024) NOT NULL,

@@ -3,6 +3,10 @@ import validationHelper from '../helpers/validationHelper';
 
 export const checkUser = (req, res, next) => {
     const createUserSchema = Joi.object().keys({
+        nationalId: Joi.string()
+            .min(16)
+            .max(16)
+            .required(),
         firstname: Joi.string()
             .trim()
             .min(3)
@@ -13,13 +17,9 @@ export const checkUser = (req, res, next) => {
             .min(3)
             .max(30)
             .required(),
-        othername: Joi.string()
-            .trim()
-            .min(3)
-            .max(30)
-            .required(),
-        email: Joi.string().email({ minDomainSegments: 2 }).required(),
-        phonenumber: Joi.string().regex(/^\+2507[2-3]\d{7}?/).required(),
+        othername: Joi.string().allow(''),
+        email: Joi.string().email({ minDomainSegments: 2 }).allow(''),
+        phonenumber: Joi.string().max(13).regex(/^\+2507[2-3]\d{7}?/).required(),
         passportUrl: Joi.string().required(),
         password: Joi.string().regex(/^[a-zA-Z0-9!@#$%^&*]{3,30}$/).min(8).required(),
     });
