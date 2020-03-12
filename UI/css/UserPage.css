@@ -1,14 +1,114 @@
-.nav {
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(233, 206, 206);
+    padding: 0;
+    margin:0;
+}
+#politico{
+    width:70px;
+    height: 40px;
+}
+#politico1{
+    width:70px;
+    height: 40px;
     border-radius: 20%;
-    display: inline;
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    bottom: auto;
+    /* margin-bottom: 40px; */
+    /* position: fixed; */
+}
+
+header{
+    /* top: 0%;
+    right: 0%;
+    left: 0%; */
+    /* position: fixed; */
+    background-color: antiquewhite;
+    color: rgb(20, 19, 19);
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom: white 3px solid;
+}
+.parallel{
+    margin-bottom: 20px;
     
-    background-color: rgb(209, 185, 185);
+}
+.header {
+    float: left;
+    /* width: 300px; */
+}
+.header h1{
+    text-align: center;
+    padding-left: 135px;
+}
+.header nav{
+    float: right;
+}
+/* .header img{
+    margin-top: 20px;
+} */
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(20, 19, 19);
+}
+header ul{
+    margin: 0;
+    padding:0;
+}
+header li{
+    float: right;
+    display: inline;
+    padding:0 20px 10px 20px;
+    /* margin-bottom: 0px; */
+}
+
+section{
+    margin-top: 20px;
+    
+}
+.signup{
+    color: rgb(207, 184, 184);
+}
+header a:hover{
+    color: rgb(207, 184, 184);
+}
+header h1{
+    float: left;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#table1{
+    display: none;
+    margin-top: 0;
+    /* column-width: 1px; */
+    /* position: relative; */
+    border-bottom: 1px double black;
+    column-span:all;
+    border-radius: 8%;
+    background-color: gray;
+    cursor: pointer;
+    float: right;
+
+}
+#table1:hover{
+    background-color: rgb(90, 79, 79);
+}
+
+tr:hover{
+    color: white;
+    
+}
+#table1 a{
+    text-decoration: none;
     color: black;
+}
+#table1 a:hover{
+    color: white;
 }
 #image{
     width: 10%;
@@ -31,7 +131,9 @@
     background-size: auto;
     color: white;
 }
-
+li{
+    list-style: none;
+}
 .nav-header {
     top: 0%;
     right: 0%;
@@ -50,9 +152,9 @@ h1 {
     font-size: 30px;
 }
 
-body {
+/* body {
     background-color: rgb(233, 206, 206);
-}
+} */
 #votebtn{
     border-radius: 20%;
     display: inline;
