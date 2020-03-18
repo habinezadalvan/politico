@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha",
+    "start": "npm run drop && npm run create && babel-node app.js",
     "dev": "npm run drop && npm run create && nodemon --exec babel-node app.js",
     "create": "babel-node server/model/createTables.js createTables",
     "lint": "eslint ./",
