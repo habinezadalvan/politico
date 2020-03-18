@@ -1,0 +1,112 @@
+
+/* .header{
+    width: 50%;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(233, 206, 206);
+    padding: 0;
+    margin:0;
+}
+#politico{
+    width:70px;
+    height: 40px;
+}
+header{
+    /* top: 0%;
+    right: 0%;
+    left: 0%; */
+    /* position: fixed; */
+    background-color: antiquewhite;
+    color: rgb(20, 19, 19);
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom: white 3px solid;
+}
+.parallel{
+    margin-bottom: 20px;
+    
+}
+.header {
+    float: left;
+    /* width: 300px; */
+}
+.header h1{
+    text-align: center;
+    padding-left: 135px;
+}
+.header nav{
+    float: right;
+}
+/* .header img{
+    margin-top: 20px;
+} */
+
+section{
+    margin-top: 20px;
+    
+}
+.parag {
+float: left;
+width: 50%;
+font-size: 20px;
+    /* display: inline; */
+}
+#create-account-btn{
+    height: 40px;
+    width: 140px;
+    border-radius: 20%;
+    background-color:  antiquewhite;
+    outline: white;
+    margin-left: 42%;
+
+}
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(20, 19, 19);
+}
+header ul{
+    margin: 0;
+    padding:0;
+}
+header li{
+    float: right;
+    display: inline;
+    padding:0 20px 0 20px;
+}
+section{
+    padding-bottom: 100px;
+}
+header a:hover{
+    color: rgb(207, 184, 184);
+}
+header h1{
+    float: left;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+.profile-image {
+    border-radius: 40%;
+    cursor: pointer;
+}
+.class{
+    padding-left: 20%;
+}
+
+#image{
+width: 15%;
+height:8%;
+   }
+   /* h1{
+       /* margin-left: 50%; 
+<<<<<<< HEAD
+   } */
+=======
+   } */
+>>>>>>> new changes

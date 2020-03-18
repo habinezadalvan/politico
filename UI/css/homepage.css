@@ -1,0 +1,514 @@
+/* .header{
+    width: 50%;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(233, 206, 206);
+    padding: 0;
+    margin:0;
+}
+#politico{
+    width:70px;
+    height: 40px;
+}
+header{
+    /* top: 0%;
+    right: 0%;
+    left: 0%; */
+    /* position: fixed; */
+    background-color: antiquewhite;
+    color: rgb(20, 19, 19);
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom: white 3px solid;
+}
+.parallel{
+    margin-bottom: 20px;
+    
+}
+.header {
+    float: left;
+    /* width: 300px; */
+}
+.header h1{
+    text-align: center;
+    padding-left: 135px;
+}
+.header nav{
+    float: right;
+}
+/* .header img{
+    margin-top: 20px;
+} */
+
+section{
+    margin-top: 20px;
+    bottom: auto;
+    
+}
+#p1{
+    padding-bottom: 60px;
+}
+.parag {
+float: left;
+width: 37%;
+/* background-size: 34%; */
+text-align: center;
+font-size: 17px;
+margin-right: 30px;
+background-color: rgb(184, 128, 44);
+border-radius: 7%;
+    /* display: inline; */
+}
+.par{
+    margin-left: 20%;
+}
+#create-account-btn{
+    height: 40px;
+    width: 140px;
+    border-radius: 20%;
+    background-color:  antiquewhite;
+    outline: white;
+    margin-left: 44%;
+    margin-top: 20px;
+}
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(20, 19, 19);
+}
+header ul{
+    margin: 0;
+    padding:0;
+}
+header li{
+    float: right;
+    display: inline;
+    padding:0 20px 0 20px;
+}
+section{
+    padding-bottom: 100px;
+}
+header a:hover{
+    color: rgb(207, 184, 184);
+}
+header h1{
+    float: left;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+footer{
+    margin-top: -20px;
+    padding-top: 20px; 
+    padding-left: 140px;
+    padding-bottom: 100%;
+    /* margin-bottom: 0; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    position: fixed;
+    background-color: antiquewhite;
+}
+footer .ComeVistUs {
+float: left;
+width: 30%;
+    /* display: inline; */
+}
+footer .ContactUs{
+    float: left;
+    width: 30%; 
+} 
+footer .FollowUs{
+    float: left;
+     width: 30%;
+}
+.ContactUs li{
+    line-height: 30px;
+}
+.ComeVistUs li{
+    line-height: 30px;
+}
+footer a{
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+}
+footer li{
+margin: 0;
+padding: 0;
+display: flex;
+}
+footer i{
+    margin-left: 40px;
+    /* font-style: italic; */
+    font-weight: bold;
+}
+.beg{
+    width: 20px;
+    border-radius: 20%;
+}
+@media screen and (min-width: 1910px){
+    .parag {
+        float: left;
+        width: 50%;
+        font-size: 50px;
+        /* background-size: 34%; */
+        margin-top: 100px;
+        font-size: 30px;
+        /* margin-left: %; */
+        background-color: rgb(184, 128, 44);
+        border-radius: 7%;
+            /* display: inline; */
+        }
+        .par{
+            margin-left: 20%;
+             margin-right: 33px; 
+        }
+        #p1{
+            padding-bottom: 100px;
+        }
+        #create-account-btn{
+            height: 120px;
+            width: 340px;
+            font-size: 30px;
+            outline: white;
+            margin-top: 20px;
+            /* margin-right: 200px; */
+            /* border-radius: 20%;
+            background-color:  antiquewhite;
+            outline: white;
+            margin-left: 42%;
+            margin-top: 20px; */
+        }
+       
+        footer{
+            /* margin-top: 10px; */
+            padding-top: 20px; 
+            padding-left: 140px;
+            padding-bottom: 100%;
+            /* margin-bottom: 0; */
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 0;
+            position: fixed;
+            background-color: antiquewhite;
+            font-size: 30px;
+        }
+        .beg{
+            width: 30px;
+            border-radius: 30%;
+        }
+}
+@media screen and (max-width: 1024px){
+    .parag {
+        float: left;
+        width: 50%;
+        font-size: 50px;
+        /* background-size: 34%; */
+        margin-top: 100px;
+        font-size: 30px;
+        /* margin-left: %; */
+        background-color: rgb(184, 128, 44);
+        border-radius: 7%;
+            /* display: inline; */
+        }
+        .header{
+            /* margin-left: px; */
+            margin-right: 9px;
+        }
+        header ul{
+            margin-left: 20px;
+        }
+        .par{
+            margin-left: 20%;
+             margin-right: 33px; 
+        }
+        #p1{
+            padding-bottom: 100px;
+        }
+        .section{
+            margin-bottom: 30%;
+        }
+        #create-account-btn{
+            height: 120px;
+            width: 340px;
+            font-size: 30px;
+            outline: white;
+            margin-top: 70px;
+            /* margin-right: 200px; */
+            /* border-radius: 20%;
+            background-color:  antiquewhite;
+            outline: white;*/
+            margin-left: 22%;
+            /*margin-top: 20px; */
+        }
+       
+        footer{
+            /* margin-top: 10px; */
+            padding-top: 20px; 
+            padding-left: 140px;
+            padding-bottom: 100%;
+            /* margin-bottom: 0; */
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 0;
+            position: fixed;
+            background-color: antiquewhite;
+            font-size: 30px;
+        }
+        .beg{
+            width: 30px;
+            border-radius: 30%;
+        }
+        .container{
+            width: 100%;
+            margin:auto;
+            overflow: hidden;
+        }  
+}
+@media screen and (max-width: 365px){
+    footer{
+        height: 200px;
+         margin-top: 200px; 
+        padding-top: 20px; 
+        padding-left: 0;
+        /* padding-bottom: 20%; */
+        /* margin-bottom: px;   */
+        /* margin-left: 20px; */
+        /* margin-right: 33px;  */
+        
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 0;
+        position: fixed;
+        background-color: antiquewhite;
+        background-size: cover;
+        /* background-position: bottom; */
+        font-size: 12px;
+    }
+    .parallel{
+        margin-bottom: 60px;
+        
+    }
+    .header {
+        float: left;
+        height: 50px;
+    }
+    /* #politico{
+        margin-top: 50px;
+    } */
+    
+    h1{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    #p1{
+        padding-bottom: 280px;
+        /* margin-right: -9px; */
+    }
+    .parag{
+        width: 90px;
+        margin-left: 44px;
+        padding-right:20px ;
+        float: left;
+        font-size: 20px;
+    }
+    .par{
+        width: 100%;
+        margin:auto;
+                /* overflow: hidden; */
+    }
+    .contactall{
+        margin-bottom:20px;
+        margin-top: 10px;
+    }
+    #create-account-btn{
+        margin-left: 30%;
+        margin-top: 20px;
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+    }
+    .section{
+        margin-bottom: 60%;
+        
+    }
+        footer .ComeVistUs {
+            float: left;
+            width: 12px;
+            margin-right: 10px;
+            /* margin-bottom: 300px; */
+            }
+            footer .ContactUs{
+                float: left;
+                width: 30px; 
+                margin-left: 30px;
+            } 
+            footer .FollowUs{
+                float: left;
+                 width: 30px;
+                 margin-left: 90px;
+            }
+            .ContactUs li{
+                line-height: 30px;
+            }
+            .ComeVistUs li{
+                line-height: 10px;
+            }
+            footer a{
+                text-decoration: none;
+                line-height: 30px;
+                color: black;
+            }
+            footer li{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            }
+            footer i{
+                margin-left: 40px;
+                /* margin: 0; */
+               padding: 0;
+            display: flex;
+                font-weight: bold;
+            }
+            .beg{
+                width: 20px;
+                border-radius: 20%;
+            }
+            .container{
+                width: 100%;
+                margin:auto;
+                overflow: hidden;
+            }      
+
+}
+@media screen and (max-width: 475px){
+    footer{
+        height: 200px;
+         margin-top: 200px; 
+        padding-top: 20px; 
+        padding-left: 0;
+        /* padding-bottom: 20%; */
+        /* margin-bottom: px;   */
+        /* margin-left: 20px; */
+        /* margin-right: 33px;  */
+        
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 0;
+        position: fixed;
+        background-color: antiquewhite;
+        background-size: cover;
+        /* background-position: bottom; */
+        font-size: 12px;
+    }
+    .parallel{
+        margin-bottom: 60px;
+        
+    }
+    .header {
+        float: left;
+        height: 50px;
+    }
+    /* #politico{
+        margin-top: 50px;
+    } */
+    
+    h1{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    #p1{
+        padding-bottom: 280px;
+        /* margin-right: -9px; */
+    }
+    .parag{
+        width: 90px;
+        margin-left: 44px;
+        padding-right:20px ;
+        float: left;
+        font-size: 20px;
+    }
+    .par{
+        width: 100%;
+        margin:auto;
+                /* overflow: hidden; */
+    }
+    .contactall{
+        margin-bottom:20px;
+        margin-top: 10px;
+    }
+    #create-account-btn{
+        margin-left: -45%;
+        margin-top: 1100px;
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+    }
+    .section{
+        margin-bottom: 60%;
+        
+    }
+        footer .ComeVistUs {
+            float: left;
+            width: 12px;
+            margin-right: 10px;
+            /* margin-bottom: 300px; */
+            }
+            footer .ContactUs{
+                float: left;
+                width: 30px; 
+                margin-left: 30px;
+            } 
+            footer .FollowUs{
+                float: left;
+                 width: 30px;
+                 margin-left: 90px;
+            }
+            .ContactUs li{
+                line-height: 30px;
+            }
+            .ComeVistUs li{
+                line-height: 10px;
+            }
+            footer a{
+                text-decoration: none;
+                line-height: 30px;
+                color: black;
+            }
+            footer li{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            }
+            footer i{
+                margin-left: 40px;
+                /* margin: 0; */
+               padding: 0;
+            display: flex;
+                font-weight: bold;
+            }
+            .beg{
+                width: 20px;
+                border-radius: 20%;
+            }
+            .container{
+                width: 100%;
+                margin:auto;
+                overflow: hidden;
+            }      
+
+}
