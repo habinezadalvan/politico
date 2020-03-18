@@ -9,50 +9,131 @@
     <link rel="stylesheet" href="../css/AdminPage.css">
 </head>
 
-    <body>
-        <div class="links">
-            <h1>hi, welcome to politico App as Admin</h1>
-            <nav>
-                <ul>
-                    <button id="create-btn" class="nav"> Create Party</button>
-                           
-                    <button id="edit-btn" class="nav"> edit Party</button>
-                    <button id="delete-btn" class="nav"> delete Party</button>
-                    <button id="createpost-btn" class="nav"> create Post of offices</button>
-                </ul>
-            </nav>
-        </div>
+<body>
+    <!-- <div class="links">
 
-        <div id="create-allform">
-            <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
-            <input id="partychief" class="form" type="text" value=""placeholder="leader of party " required><br>
-            <div class="button1">
-                <button id="create" class="button">create</button>
-            </div>
-        </div>
+        <h1>
+            <table>
+                <tr>
+                    <td><a href="../index.html"><img id="image" src="../images/politico.png"></a>
+                        hi, welcome to politico App as Admin</td>
+                    <td>
+                        <ul>
+                    <td><button id="create-btn" class="nav"> Create Party</button></td>
+                    <td><button id="edit-btn" class="nav"> edit Party</button></td>
+                    <td><button id="delete-btn" class="nav"> delete Party</button></td>
+                    <td><button id="createpost-btn" class="nav"> create Post of offices</button></td>
+                    </ul>
+                    </td>
+                </tr> -->
+                <header>
+                    <div class="container">
+                        <div class="parallel">
+                            <div class="header">
+                                <a href="../index.html"><img id="politico" src="../images/politico1.png" alt=""></a>
+                            </div>
+                            
+                            <div class="header">
+                                <h1>Welcome to politico
+                                    Application</h1>
+                            </div>
+                               
+                            <nav class="option">
+                                <ul>
+                                    <li><a><img id="politico1"  src="../images/options.png" alt=""></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        
+                    </div>
+                    
+                    </header>
+                    
+                    <div class="container">
+                        <table id="table1" >
+                            <tr><td>
+                                <li><a id="create-btn" > CREATE PARTY</a></li>
+                            </td></tr>
+                            <tr><td>
+                                    <li ><a id="edit-btn" > EDIT PARTY</a></li>
+                                
+                            </td></tr>
+                            <tr> <td>
+                                <li ><a id="delete-btn" > DELETE PARTY</a></li></td></tr>
+                            <tr><td>
+                                <li ><a id="createpost-btn" > CREATE POST OFFICES</a></li></td>
+                                
+                            </tr>
+                            <tr><td>
+                                <li ><a id="view" > VIEW DETAILS</a></li></td>
+                                
+                            </tr>
+            </table>
 
-        <div id="edit-form">
-            <input id="party" class="form" type="text" value="BCDI" placeholder="name of party" required><br>
-            <input id="partychief" class="form" type="text" value="HABUMUREMYI Jean" placeholder="leader of party " required><br>
-            <div class="button1">
-                <button id="update" class="button">Update</button>
-            </div>
-        </div>
-        <div id="delete-form">
-            <input id="party" class="form" type="text" value="" placeholder="name of party to be deleted" required><br>
-            <div class="button1">
-                <button id="delete" class="button">delete</button>
-            </div>
-        </div>
 
-        <div id="createpost-form">
-            <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
-            <input id="post" class="form" type="text" value="" placeholder="post" required><br>
-            <div class="button1">
-                <button id="createpost" class="button">create post</button>
-            </div>
+       
+        <nav>
+
+        </nav>
+    </div>
+    <div id="info" >
+        <table  border="2">
+            <thead>
+                <th>Party</th>
+                <th>Leader</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> BCDI</td>
+                    <td>Musemakweli Emmanuel</td>
+                    <td><button>DELETE PARTY</button><button>EDIT PARTY</button></td>
+                </tr>
+                <tr>
+                    <td> PSRG</td>
+                    <td>Ukobizaba Fabrice</td>
+                    <td><button>DELETE PARTY</button><button>EDIT PARTY</button></td>
+                </tr>
+                <tr>
+                    <td> PFTJ</td>
+                    <td>Ntakirutimana Andre</td>
+                    <td><button>DELETE PARTY</button><button>EDIT PARTY</button></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div id="create-allform">
+        <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
+        <input id="partychief" class="form" type="text" value="" placeholder="leader of party " required><br>
+        <div class="button1">
+            <button id="create" class="button">create</button>
         </div>
-      <script src="../js/AdminPage.js"></script>
-    </body>
+    </div>
+
+    <div id="edit-form">
+        <input id="party" class="form" type="text" value="BCDI" placeholder="name of party" required><br>
+        <input id="partychief" class="form" type="text" value="HABUMUREMYI Jean" placeholder="leader of party "
+            required><br>
+        <div class="button1">
+            <button id="update" class="button">Update</button>
+        </div>
+    </div>
+    <div id="delete-form">
+        <input id="party" class="form" type="text" value="" placeholder="name of party to be deleted" required><br>
+        <div class="button1">
+            <button id="delete" class="button">delete</button>
+        </div>
+    </div>
+
+    <div id="createpost-form">
+        <input id="party" class="form" type="text" value="" placeholder="name of party" required><br>
+        <input id="post" class="form" type="text" value="" placeholder="post" required><br>
+        <div class="button1">
+            <button id="createpost" class="button">create post</button>
+        </div>
+    </div>
+    <script src="../js/AdminPage.js"></script>
+</body>
 
 </html>

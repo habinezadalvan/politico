@@ -10,20 +10,59 @@
 </head>
 
 <body>
-    <div class="allform">
-        <!-- <h1 class="h1"></h1> -->
-        <h2 class="form">Please fill this form</h2>
-        <input class="form" type="text" value="" placeholder="Your names" required>
-        <input class="form" type="text" value="" placeholder="Your Phone Number" required>
-        <select name="type of user" class="form" >
+    <header>
+        <div class="container">
+            <div class="parallel">
+                <div class="header">
+                    <a href="../index.html"><img id="politico" src="../images/politico1.png" alt=""></a>
+                </div>
+                
+                <div class="header">
+                    <h1>Welcome to politico
+                        Application</h1>
+                </div>
+            </div>
             
-            <option value="citizen">Citizen</option>
-            <option value="Politician">Politician</option>
-        </select>
-        <input id="password1" class="form" type="password" placeholder="password you will use" required>
-        <input id="password2" class="form" type="password" placeholder="confirm password" required>
-        <a href="SignIn.html"><button id="signup" class="button">Sign Up</button></a>
-    </div>
+            <!-- <div class="header"> -->
+                <nav>
+                    <ul>
+                        <li><a class="signin" href="./SignIn.html">SIGNIN</a></li>
+                        <li><a class="signup" href="./SignUp.html">SIGNUP</a></li>
+                    </ul>
+                </nav>
+            <!-- </div> -->
+            
+        </div>
+        </header>
+    <section>
+        <div class="container">
+            <table>
+           
+                <tr>
+                    <td>
+                        <div class="allform">
+                            <!-- <h1 class="h1"></h1> -->
+                            <h2 class="form">Please fill this form</h2>
+                            <input class="form1" type="text" value="" placeholder="Your names" required>
+                            <input class="form1" type="text" value="" placeholder="Your Phone Number" required>
+                            <select name="type of user" id='choice'class="form1">
+        
+                                <option value="citizen">Citizen</option>
+                                <option value="Politician">Politician</option>
+                            </select>
+                            <input id="password1" class="form1" type="password" placeholder="password you will use" required>
+                            <input id="password2" class="form1" type="password" placeholder="confirm password" required>
+                            <a href="SignIn.html" id="a"><button id="signup" class="button">Sign Up</button></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+    </section>
+    
+
+    <script src="../js/SignUp.js"></script>
 </body>
 
 </html>
