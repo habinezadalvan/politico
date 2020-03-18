@@ -49,6 +49,4 @@
     "eslint-plugin-import": "^2.20.1",
     "mocha": "^7.1.0"
   }
-  
-  
 }
