@@ -23,8 +23,10 @@
     border-radius: 10%;
     margin: 150px auto;
     width: 600px;
-    background-color: blue;
+    background-color: antiquewhite;
     animation: moveInBottom 3s ease-out;
+    /* border-color: black; */
+    /* border-style: solid; */
 }
 
 @keyframes moveInBottom {
@@ -44,8 +46,9 @@
 }
 
 body {
-    background-image: url("../images/mic.png");
-    background-size: cover;
+    /* background-image: url("../images/mic.png");
+    background-size: cover; */
+    background-color: rgb(233, 206, 206);
 }
 @media screen and (max-width: 900px){
     .allform {

@@ -2,12 +2,14 @@
 .link {
     border-radius: 20%;
     display: inline;
-        padding-right: 4%; 
-        padding-left: 4%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+    padding-right: 4%; 
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
     bottom: auto;
+    background-color: rgb(209, 185, 185);
+    color: black;
 }
 nav{
 margin-left: 30%;
@@ -35,12 +37,32 @@ h1 {
 }
 
 body {
-    background-color: rgb(236, 156, 210);
+    background-color:rgb(233, 206, 206);
     
 }
 
+#body-container .body{
+    /* text-align: center; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 0%;
+    width: 70%;
+    
+    }
+    #continue{
+        margin-top: 35%;  
+    }
+td{
+    width: 50%;
+}
+#body-container table{
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 5%;
+}
+
 h2 {
-    padding-top: 30%;
+    padding-top: 10%;
     right: 0%;
     left: 0%;
     text-align: center;
@@ -51,16 +73,20 @@ h2 {
     border-radius: 25%;
     cursor: pointer;
     background-image: url("../images/mic.png");
+    margin-left: 45%;
+    margin-bottom: 8%;
+    /* padding: 5%; */
 }
 #create-account-btn:hover{
     background-color: antiquewhite;
     width: 120px;
     height: 25px;
+    color: white;
 }
 .content {
     height: 100%;
     width: 100%;
-    background: url("../images/mic.png") no-repeat;
+    /* background: url("../images/mic.png") no-repeat; */
     background-size: cover;     
 }
 
@@ -70,7 +96,7 @@ h2 {
     line-height: 25px;
 }
 #footer{
-    
+    top: 90%;
     justify-content: center;
     flex-direction: row;
     display: flex;
@@ -82,12 +108,33 @@ h2 {
 .ComeVistUs li, .ContactUs  li, .FollowUs li{
     list-style: none;
     margin-right: auto;
+    
+}
+.begin{
+    margin-top: 15%;
 }
 .FollowUs ul li img{
     width: 23px;
     height: 23px;
     border-radius: 5px;
 }
+.FollowUs i {
+    margin-left: 30%;
+}
+.FollowUs li{
+    color: black;
+}
+.ContactUs i{
+    margin-left: 10%;
+}
+.ComeVistUs i{
+    margin-left: 19%;
+}
+/* footer{
+    margin-top: 95%;
+} */
+
+
 @media screen and (max-width: 900px){
     h2{
         padding-top: 30%;
@@ -100,9 +147,13 @@ h2 {
     .content {
         height: 100%;
         width: 100%;
-        background: url("../images/mic.png") no-repeat;
-        background-size: cover;    
+        /* background: url("../images/mic.png") no-repeat;
+        background-size: cover;     */
         bottom: 0px; 
+    }
+    body {
+        background-color:rgb(233, 206, 206);
+        
     }
     .ContactUs{
         margin: 0px;
